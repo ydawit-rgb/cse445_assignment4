@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NationalPark>
+<NationalPark> <!-- Root Element name is NationalPark instead of NationalParks-->
 
     <!-- Grand Canyon(#1)-->
     <NationalPark Rating="4.9">
@@ -32,7 +32,7 @@
     <!-- Zion National Park(#3)-->
     <NationalPark Rating="4.8">
         <Name>Zion National Park</Name>
-        <Name>Second Name</Name>
+        <Name>Second Name</Name> <!-- 2 names for zion national park-->
         <Phone>435-772-3256</Phone>
         <Phone>435-772-3426</Phone>
         <Address NearestAirport="St. George Regional">
@@ -54,6 +54,7 @@
             <City>Yellowstone National Park</City>
             <State>WY</State>
             <Zip>82190</Zip>
+            <!-- Missing Address Tag-->
     </NationalPark>
 
     <!-- Rocky Mountain National Park(#5)-->
@@ -74,7 +75,8 @@
     <!-- Joshua Tree National Park(#6)-->
     <NationalPark Rating ="4.8">
         <Name>Joshua Tree National Park</Name>
-        <Address NearestAirport="Palm Springs International">
+        <Phone>760-367-5500</Phone>
+        <Address> <!-- Missing nearestAirport attribute-->
             <Number>74485</Number>
             <Street>National Park Drive</Street>
             <City>Twentynine Palms</City>
@@ -144,9 +146,8 @@
     <!-- Saguaro National Park(#11)-->
     <NationalPark Rating="4.9">
         <Name>Saguaro National Park</Name>
-        <Phone>520-733-5153</Phone>
-        <Phone>520-733-5158</Phone>
-        <Address>
+        <!-- missing phone tag and information-->
+        <Address NearestAirport="Tucson International">
             <Number>3693</Number>
             <Street>South Old Spanish Trail</Street>
             <City>Tucson</City>
@@ -154,4 +155,4 @@
             <Zip>85730</Zip>
         </Address>
     </NationalPark> 
-</NationalPark>
+</NationalPark> <!-- Root Element name is NationalPark instead of NationalParks-->
