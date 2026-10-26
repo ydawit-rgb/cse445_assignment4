@@ -76,6 +76,7 @@
     <NationalPark Rating ="4.8">
         <Name>Joshua Tree National Park</Name>
         <Phone>760-367-5500</Phone>
+        <Phone>760-367-5554</Phone>
         <Address NearestAirport="Palm Springs International">
             <Number>74485</Number>
             <Street>National Park Drive</Street>
