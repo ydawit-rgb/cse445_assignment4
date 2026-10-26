@@ -18,7 +18,7 @@
                                         <xs:element name = "Street" type ="xs:string" minOccurs = "1" maxOccurs ="1"/>
                                         <xs:element name = "City" type ="xs:string" minOccurs = "1" maxOccurs ="1"/>
                                         <xs:element name = "State" type ="xs:string" minOccurs = "1" maxOccurs ="1"/>
-                                        <xs:element name = "Zip" type ="xs:int"/> <!-- put zip code as string instead of int just in case inputted zip codes start with a 0 -->
+                                        <xs:element name = "Zip" type ="xs:string"/> <!-- put zip code as string instead of int just in case inputted zip codes start with a 0 -->
                                     </xs:sequence>
                                     <xs:attribute name = "NearestAirport" type ="xs:string" use ="required" />
                                 </xs:complexType>
