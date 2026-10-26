@@ -45,7 +45,7 @@
     </NationalPark>
 
     <!-- Yellowstone National Park(#4)-->
-    <NationalPark Rating ="4.8">
+    <NationalPark Rating="4.8">
         <Name>Yellowstone National Park</Name>
         <Phone>307-344-7381</Phone>
         <Address NearestAirport="Bozeman Yellowstone International">
@@ -58,7 +58,7 @@
     </NationalPark>
 
     <!-- Rocky Mountain National Park(#5)-->
-    <NationalPark Rating ="4.9">
+    <NationalPark Rating="4.9">
         <Name>Rocky Mountain National Park</Name>
         <Phone>970-586-1206</Phone>
         <Phone>970-586-1222</Phone>
@@ -73,7 +73,7 @@
     </NationalPark> 
 
     <!-- Joshua Tree National Park(#6)-->
-    <NationalPark Rating ="4.8">
+    <NationalPark Rating="4.8">
         <Name>Joshua Tree National Park</Name>
         <Phone>760-367-5500</Phone>
         <Address> <!-- Missing nearestAirport attribute-->
@@ -96,12 +96,12 @@
             <Street>Visitor Center Road</Street>
             <City>Bar Harbor</City>
             <State>ME</State>
-            <Zip>04609</Zip>
+            <Zip>4609</Zip>
         </Address>
     </NationalPark> 
 
     <!-- Glacier National Park(#8)-->
-    <NationalPark Rating ="4.9">
+    <NationalPark Rating="4.9">
         <Name>Glacier National Park</Name>
         <Phone>406-888-7800</Phone>
         <Phone>406-888-7806</Phone>
@@ -115,7 +115,7 @@
     </NationalPark> 
 
     <!-- Great Smoky Mountains National Park(#9)-->
-    <NationalPark Rating ="4.9">
+    <NationalPark Rating="4.9">
         <Name>Great Smoky Mountains National Park</Name>
         <Phone>865-436-1200</Phone>
         <Address NearestAirport="McGhee Tyson">
