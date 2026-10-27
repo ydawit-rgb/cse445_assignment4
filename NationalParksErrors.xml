@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NationalPark> <!-- Root Element name is NationalPark instead of NationalParks-->
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="https://ydawit-rgb.github.io/cse445_assignment4/NationalParks.xsd"> <!-- Root Element name is NationalPark instead of NationalParks-->
 
     <!-- Grand Canyon(#1)-->
     <NationalPark Rating="4.9">
