@@ -3,7 +3,7 @@
     <xsd:element name="NationalParks">
             <xsd:complexType>
                 <xsd:sequence>
-                    <xsd:element name="NationalPark" minOccurs="0" maxOccurs="unbounded">
+                    <xsd:element name="NationalPark" minOccurs="1" maxOccurs="unbounded">
                         <xsd:complexType>
                             <xsd:sequence>
                                 <xsd:element name="Name" type="xsd:string"/>
